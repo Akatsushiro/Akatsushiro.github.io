@@ -1,0 +1,68 @@
+@font-face {
+    font-family: heaters;
+    src: url("../fonts/heaters.otf")
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#capa {
+    width: 100%;
+    height: 40vh;
+    z-index: 1;
+}
+
+#bg_pattern {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 30vh;
+    margin-top: 40vh;
+    opacity: 0.8;
+}
+
+#avatar_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20vh;
+    width: 30vw;
+    height: 300px;
+    border: 1px solid blue;
+    border-radius: 100%;
+    box-shadow: 4px 3px 8px 1px #969696;
+    -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+#avatar_img {
+    background-color: rgba(255, 255, 255, 0.85);
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    height: 300px;
+    border-radius: 100%;
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid blue;
+    border-radius: 25px;
+    box-shadow: 4px 3px 8px 1px #969696;
+    -webkit-box-shadow: 4px 3px 8px 1px #969696;
+    background-color: rgba(250, 250, 250, 0.8);
+}
+
+#nome {
+    margin: 0 0 0 0;
+    width: 100%;
+    font: 4.5rem heaters;
+}
+
+#apresentacao {
+    font-size: 1.5rem;
+}
